@@ -1,11 +1,12 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+
+/** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+
+module.exports = {
   title: ' ',
   tagline: '',
   url: '/docs/intro.md',
@@ -13,64 +14,81 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/linux.png',
-  projectName: 'docusaurus', // Usually your repo name.
-
+  projectName: 'docusaurus',
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
+          sidebarPath: 'C:\\edu\\docusaurus-docs\\sidebars.js',
           editUrl: '#',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: 'C:\\edu\\docusaurus-docs\\src\\css\\custom.css',
         },
-      }),
+      },
     ],
   ],
-
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      navbar: {
-        title: 'Home',
-
-        logo: {
-          alt: 'Volkan Çalışkan',
-          src: 'img/linux.png',
+  themeConfig: {
+    navbar: {
+      title: 'Home',
+      logo: {
+        alt: 'Volkan Çalışkan',
+        src: 'img/linux.png',
+      },
+      items: [
+        {
+          type: 'doc',
+          docId: 'intro',
+          position: 'left',
+          label: 'Documents',
         },
-
-        items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Documents',
-          },
-          {
-            href: 'https://github.com/birseykoo',
-            label: 'GitHub',
-            position: 'right',
-          },
-          {
-            href: 'https://twitter.com/birseykoo',
-            label: 'Twitter',
-            position: 'right',
-          },
-        ],
+        {
+          href: 'https://github.com/birseykoo',
+          label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://twitter.com/birseykoo',
+          label: 'Twitter',
+          position: 'right',
+        },
+      ],
+      hideOnScroll: true,
+    },
+    footer: {
+      links: [],
+      "copyright": "Copyright © 2022 Volkan Çalışkan, Inc. Built with Docusaurus.",
+      style: 'dark',
+    },
+    prism: {
+      theme: lightCodeTheme,
+      darkTheme : {
+        ...darkCodeTheme,
+        plain: {
+          color: 'orange',
+        }
       },
-      footer: {
-        links: [],
-        copyright: `Copyright © ${new Date().getFullYear()} Volkan Çalışkan, Inc. Built with Docusaurus.`,
+    },
+    hideableSidebar: true,
+    colorMode: {
+      defaultMode: "dark",
+      disableSwitch: false,
+      respectPrefersColorScheme: true
+    },
+    metadata: [
+      {
+        name: "description",
+        content: "Volkan Çalışkan's personal website"
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+      {
+        name: "keywords",
       },
-    }),
+    ],
+    autoCollapseSidebarCategories: false,
+    tableOfContents: {
+      minHeadingLevel: 2,
+      maxHeadingLevel: 6,
+    }
+  },
 };
-
-module.exports = config;
