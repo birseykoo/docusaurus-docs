@@ -20,11 +20,11 @@ module.exports = {
       'classic',
       {
         docs: {
-          sidebarPath: 'C:\\edu\\docusaurus-docs\\sidebars.js',
+          sidebarPath: require.resolve('./sidebars.js'),
           editUrl: '#',
         },
         theme: {
-          customCss: 'C:\\edu\\docusaurus-docs\\src\\css\\custom.css',
+          customCss: [require.resolve('./src/css/custom.css')],
         },
       },
     ],
