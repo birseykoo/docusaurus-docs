@@ -21,7 +21,7 @@
   --color-tertiary-dark: #fafafa;
   --color-quaternary-dark: #fafafa;
   --color-quinary-dark: #fafafa;
-  --ifm-code-font-size: 100%;
+  --ifm-code-font-size: 90%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -65,4 +65,19 @@
   padding-right: 1em;
   padding-left: 0.75em;
   border-left: 0.25em solid #fafafa;
+}
+
+.footer{
+  height: 30px;
+}
+.footer__copyright{
+  color: #fafafa;
+  line-height: 50% !important;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
 }
