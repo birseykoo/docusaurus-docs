@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: ' ',
   tagline: '',
-  url: '/docs/intro.md',
+  url: '#',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,8 +54,9 @@ module.exports = {
           position: 'right',
         },
       ],
-      hideOnScroll: true,
-    },
+
+     hideOnScroll: true,
+    }, hideableSearch: true,
     footer: {
       links: [],
       "copyright": "Copyright © 2022 Volkan Çalışkan, Inc. Built with Docusaurus.",
@@ -89,6 +90,17 @@ module.exports = {
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 6,
-    }
+    },
+    docsearch: {
+      appId: "R2IYF7ETH7",
+      apiKey: "599cec31baffa4868cae4e79f180729b",
+      indexName: "docsearch",
+      algoliaOptions: {}
+    },
+
+    // googleAnalytics: {
+    //   trackingID: '',
+    //   anonymize: true,
+    // },
   },
 };
