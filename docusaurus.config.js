@@ -17,7 +17,7 @@ module.exports = {
   projectName: 'docusaurus',
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
