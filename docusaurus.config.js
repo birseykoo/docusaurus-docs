@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: ' ',
   tagline: '',
-  url: '#',
+  url: '/docs/intro.md',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,28 +54,34 @@ module.exports = {
           position: 'right',
         },
       ],
-
-     hideOnScroll: true,
-    }, hideableSearch: true,
+      hideOnScroll: true,
+    },
     footer: {
       links: [],
       "copyright": "Copyright © 2022 Volkan Çalışkan, Inc. Built with Docusaurus.",
       style: 'dark',
     },
-    prism: {
-      theme: lightCodeTheme,
-      darkTheme : {
+
+    prism:{
+      theme: darkCodeTheme,
+      darkTheme: {
         ...darkCodeTheme,
-        plain: {
+        plain:{
+          backgroundColor: '#454545',
           color: 'orange',
+          padding: '0.5em',
+          borderRadius: '0.5em',
+          height: 'auto',
+
         }
-      },
+      }
+
     },
     hideableSidebar: true,
     colorMode: {
       defaultMode: "dark",
       disableSwitch: false,
-      respectPrefersColorScheme: true
+      respectPrefersColorScheme: false
     },
     metadata: [
       {
@@ -90,17 +96,6 @@ module.exports = {
     tableOfContents: {
       minHeadingLevel: 2,
       maxHeadingLevel: 6,
-    },
-    docsearch: {
-      appId: "R2IYF7ETH7",
-      apiKey: "599cec31baffa4868cae4e79f180729b",
-      indexName: "docsearch",
-      algoliaOptions: {}
-    },
-
-    // googleAnalytics: {
-    //   trackingID: '',
-    //   anonymize: true,
-    // },
+    }
   },
 };
