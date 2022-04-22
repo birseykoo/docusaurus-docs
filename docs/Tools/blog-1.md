@@ -55,6 +55,8 @@ title: Güncel Kalmak İçin Kullanabileceğimiz Platformlar
 * Storybook
 * Storybook*addon*jsx
 * Node.js
+* npm
+* n package
 * Express
 * MongoDB
 * Mongoose
