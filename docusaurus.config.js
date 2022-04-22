@@ -78,7 +78,7 @@ module.exports = {
       }
 
     },
-    hideableSidebar: false,
+    hideableSidebar: true,
     colorMode: {
       defaultMode: "dark",
       disableSwitch: false,

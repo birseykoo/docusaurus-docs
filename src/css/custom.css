@@ -8,30 +8,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-  --ifm-color-primary: #3578e5; /*#25c2a0;*/
-  --ifm-color-primary-dark: #1d68e1; /*rgb(33, 175, 164);*/
-  --ifm-color-primary-darker: #1b62d4; /*rgb(31, 165, 136);*/
-  --ifm-color-primary-darkest: #1751af; /*rgb(26, 136, 112);*/
-  --ifm-color-primary-light: #4e89e8; /*rgb(70, 203, 174);*/
-  --ifm-color-primary-lighter: #5a91ea; /*rgb(102, 212, 189);*/
-  --ifm-color-primary-lightest: #80aaef; /*rgb(166, 224, 208);*/
-  --ifm-code-font-size: 90%; /*95%;*/
+  --ifm-color-primary: #ffa600;
+  --ifm-color-primary-dark: #e69500;
+  --ifm-color-primary-darker: #d98d00;
+  --ifm-color-primary-darkest: #b37400;
+  --ifm-color-primary-light: #ffaf1a;
+  --ifm-color-primary-lighter: #ffb326;
+  --ifm-color-primary-lightest: #ffc14d;
   --ifm-font-family-base: 'Open Sans';
+  --ifm-font-family-monospace: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  --ifm-font-size-base: 3rem;
 }
 
 /* Yazı tipi */
-
-@media screen and (max-width: 996px) {
-  :root {
-    --ifm-font-size-base: 16px;
-  }
-  article header h1 {
-    font-size: 1rem !important;
-  }
-  .hero .hero__title {
-    font-size: 1.5rem;
-  }
-}
 
 @media screen and (min-width: 997px) {
   :root {
@@ -39,8 +28,14 @@
   }
   article header h1 {
     font-size: 2rem !important;
+    color: orange;
+  }
+  h2 {
+    font-size: 1.5rem !important;
+    color: orange;
   }
 }
+
 
 article {
   font-family: 'Open Sans', sans-serif;
