@@ -54,7 +54,7 @@ module.exports = {
           position: 'right',
         },
       ],
-      hideOnScroll: true,
+      hideOnScroll: false,
     },
     footer: {
       links: [],
@@ -69,15 +69,16 @@ module.exports = {
         plain:{
           backgroundColor: '#454545',
           color: 'orange',
-          padding: '0.5em',
-          borderRadius: '0.5em',
+          padding: '0.3em',
+          borderRadius: '1em',
           height: 'auto',
-
+          fontSize: '16px',
+          fontFamily: 'monospace',
         }
       }
 
     },
-    hideableSidebar: true,
+    hideableSidebar: false,
     colorMode: {
       defaultMode: "dark",
       disableSwitch: false,
