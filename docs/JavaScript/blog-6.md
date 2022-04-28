@@ -17,7 +17,7 @@ Fonksiyonlar adından anlaşılacağı gibi belli bir amacı gerçekleştirmek i
 * Parametre alan fonksiyonları kullandığımız zaman o parametrelere kendimiz bir değer atarız. Atanan bu değere argüman adı verilir.
 * Son olarak da süslü parantezleri açarak içine çalışmasını istediğimiz JavaScript kodunu eklenir. Bu JavaScript koduna fonksiyonun gövdesi- body denir.
 
-![](https://raw.githubusercontent.com/learn-co-curriculum/cssi-2.3-functions/master/images/functions.png)
+![functions](https://raw.githubusercontent.com/learn-co-curriculum/cssi-2.3-functions/master/images/functions.png)
 
 ```javascript
 function sayHello(name) { // name parametresi alır
@@ -393,7 +393,6 @@ console.log(sayacartir()); // 2
 ```
 
 [Nested functions](https://javascript.info/closure#nested-functions)
-
 
 ## Kaynaklar
 
