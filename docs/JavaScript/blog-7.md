@@ -1,5 +1,6 @@
 ---
 title: Fonsiyona Parametre (params) ve Geridönüş (return) Eklemek
+sidebar_position: 7
 ---
 
 Fonksiyonlar, bir takım veriler kullanarak, herhangi bir görevi yerine getiren veya bu verileri işleyip, sonuç üreten komut grubudur.

@@ -1,6 +1,7 @@
 ---
 title: JavaScript Döngüler
 category: JavaScript
+sidebar_position: 14
 ---
 
 ## JavaScript for Döngüsü Kullanımı

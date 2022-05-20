@@ -1,6 +1,7 @@
 ---
 title: Form ve Form Submit Yönetimi
 category: JavaScript
+sidebar_position: 11
 ---
 
 Form içinde bulundurduğu form elementlerinin name'leri sayesinde değerlerini alıp bu değerlerle işlem yapmanıza olanak sağlayan bir yapıdır.

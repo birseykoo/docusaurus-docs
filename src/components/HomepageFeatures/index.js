@@ -26,6 +26,10 @@ function Feature({ title, description}) {
       <Link className={(styles.link, 'button button--primary button--lg')} to="/docs/intro">
         Learn more
       </Link>
+      <div className="text--center padding-horiz--md">
+        <h3>{title}</h3>
+        <p>{description}</p>
+        </div>
     </div>
   );
 }

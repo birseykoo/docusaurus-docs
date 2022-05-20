@@ -1,6 +1,7 @@
 ---
 title: LocalStorage ile Veri Eklemek, Düzenlemek ve Silmek
 category: JavaScript
+sidebar_position: 10
 ---
 
 ### LocalStorage ile Veri Eklemek, Düzenlemek ve Silme Local Storage Nedir?

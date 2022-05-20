@@ -1,5 +1,6 @@
 ---
 title: DOM Etkinlikleriyle Çalışmak
+sidebar_position: 9
 ---
 
 ## Etkinlik Ekleme ve Özelliklerine Ulaşma

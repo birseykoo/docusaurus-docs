@@ -1,5 +1,6 @@
 ---
 title: Fonksiyon Nedir? Neden Kullanırız?
+sidebar_position: 6
 ---
 
 Fonksiyonlar adından anlaşılacağı gibi belli bir amacı gerçekleştirmek için oluşturulmuş yapılardır. Koda işlevsellik katmak için bunu sık sık kullanırız.

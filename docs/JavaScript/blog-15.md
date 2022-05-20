@@ -1,5 +1,6 @@
 ---
 title: Object (Nesne) Nedir? Nasıl Oluşturulur?
+sidebar_position: 15
 ---
 
 ## Object(Nesne) Nedir? Nasıl Oluşturulur? JavaScript Object

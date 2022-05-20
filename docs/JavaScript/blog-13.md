@@ -1,6 +1,7 @@
 ---
 title: Dizi(Array) Oluşturmak ve Dizi İçindeki Elemanlara Ulaşmak
 category: JavaScript
+sidebar_position: 13
 ---
 
 Merhaba arkadaşlar, JavaScript'te array(dizi) tanımı birden çok value(değer) saklamamızı sağlar. Bu diziler içinde string, number, boolean, object, tipinde veriler saklanabilir. Diziler de object(nesne) tipindedir. Bir dizi oluşturmak için yapmamız gereken dizi ismini verip eşittir dedikten sonra köşeli parantezler içinde dizi elemanlarını yazmak. Her eleman arasında bir virgül koymamız gereklidir.

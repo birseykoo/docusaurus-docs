@@ -1,5 +1,6 @@
 ---
 title: Fat Arrow () => Fonksiyonu Kullanımı (Arrow Function)
+sidebar_position: 8
 ---
 
 JavaScript'te fonksiyonları tanımlamanın birçok yolu vardır.

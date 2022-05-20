@@ -1,6 +1,7 @@
 ---
 title: Input İçerisinden Değer Almak
 category: JavaScript
+sidebar_position: 12
 ---
 
 Dinamik olarak input oluşturmak için;
