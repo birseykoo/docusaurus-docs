@@ -23,9 +23,9 @@ category: JavaScript
 * '===' Eşitlik
 * '!==' Eşitlik değil
 * '>' Farklı değerlerden büyük
-* '<' Farklı değerlerden küçük
+* '`<`' Farklı değerlerden küçük
 * '>=' Farklı değerlerden büyük veya eşit
-* '<=' Farklı değerlerden küçük veya eşit
+* '`<=`' Farklı değerlerden küçük veya eşit
 * '&&' ve
 * '||' veya
 * '!' Fakat

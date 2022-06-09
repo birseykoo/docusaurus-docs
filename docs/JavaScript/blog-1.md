@@ -371,7 +371,7 @@ JS Koşulları bölümü, koşullu ifadelere tam bir genel bakış sunar.
 |-|-|-|
 |==|equal to|if (day == "Monday")|
 |>|greater than|if (salary > 9000)|
-|<|less than|if (age < 18)|
+|`<`|less than|if (age `<` 18)|
 
 ### Undefined
 

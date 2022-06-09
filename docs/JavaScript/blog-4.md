@@ -13,9 +13,9 @@ sidebar_position: 4
 | !=                                 | Değerleri eşit değil mi              |
 | !==                                | Değerleri veya değer türleri eşit mi |
 | >                                  | Büyük mü                             |
-| <                                  | Küçük mü                             |
+| `<`                                  | Küçük mü                             |
 | >=                                 | Değerinden büyük veya eşit mi        |
-| <=                                 | değerinden küçük veya eşit mi        |
+| `<=`                                 | değerinden küçük veya eşit mi        |
 | ?                                  | Kısaltılmış koşul operatörü          |
 | &&                                 | Ve                                   |
 |                                    | Veya                                 |
