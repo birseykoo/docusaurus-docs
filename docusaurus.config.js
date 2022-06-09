@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: ' ',
   tagline: '',
-  url: '/docs/intro.md',
+  url: '/docs/README.md',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -39,7 +39,7 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'README',
           position: 'left',
           label: 'Documents',
         },

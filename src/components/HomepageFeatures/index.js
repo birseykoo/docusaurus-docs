@@ -23,7 +23,7 @@ function Feature({ title, description}) {
     <div className={clsx('col col--4', styles.feature, 'text--center')}>
       <h3>{title}</h3>
       <p>{description}</p>
-      <Link className={(styles.link, 'button button--primary button--lg')} to="/docs/intro">
+      <Link className={(styles.link, 'button button--primary button--lg')} to="/docs/README">
         Learn more
       </Link>
       <div className="text--center padding-horiz--md">
